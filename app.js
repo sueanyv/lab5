@@ -48,6 +48,8 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sumAndMultiply(a, b, c) { //eslint-disable-line
+  var totalSum = sum(a, sum(b, c)[0])[0];
+  var multiplyNumbers = multiply(a, multiply(b, c)[0])[0];
 
 }
 
